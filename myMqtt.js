@@ -3,7 +3,7 @@ var mqtt=require('mqtt');
     const MQTT_SERVER="localhost";
     const MQTT_PORT="1883";
     //if your server don't have username and password leave it blank
-    const MQTT_USER="Avirut";
+    const MQTT_USER="may";
     const MQTT_PASSWORD="123456";
 
     var client=mqtt.connect({
